@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <section class="boxes">
+    <div class="container large">
+        
+			<div class="card">
+                <div class="box" style="align-items: flex-end;"></div>
+                <div class="box" style="align-items: flex-end;"></div>
+                <div class="box" style="align-items: flex-end;"></div>
+            </div>
+            <div class="card car_2" style="justify-content: center; align-items: stretch;">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="card card_3" style="justify-content: end; align-items: center;">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        
+			<div class="card card_4" style="justify-content: space-between;">
+                <div class="box" style="align-self: flex-start;"></div>
+                <div class="box" style="align-self: flex-start;"></div>
+                <div class="box" style="align-self: flex-end;"></div>
+            </div>
+            <div class="card card_5" style="justify-content: space-around; align-items: stretch;">
+                <div class="box" style="align-items: stretch;">
+                    <div class="box-text" >
+                        <p class="text">Some text</p>
+                    </div>
+                </div>
+                <div class="box" style="align-self: center; position: relative; align-content: baseline;">
+                    <div class="box-text" >
+                        <p class="text">Some text</p>
+                    </div>
+                </div>
+                <div class="box" style="align-items: stretch;">
+                    <div class="box-text">
+                        <p class="text">Some text</p>
+                    </div>
+                </div>      
+            </div>
+            <div class="card card_6" style="align-items: center; justify-content: center;">
+                <div class="box"></div>
+                <div class="box" style="flex: 0 2 40% ;"></div>
+                <div class="box"></div>
+            </div>
+		</div>
+    </section>
+</body>
+</html>
